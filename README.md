@@ -28,11 +28,13 @@ The whole project has a glowing theme and a modern look designed to appeal to th
 ---
 
 ## Usage
-1. Open `index.html` in a modern browser
-2. Click the **+** button to add a new note
-3. Edit or delete notes using the icons on each note card
-4. Toggle the theme with the moon/sun button
-5. Your notes are saved automatically in your browser
+1. Clone this repository or download it as a ZIP.
+2. Open `index.html` directly in a modern browser **or**
+3. Run `npm start` to serve the project with live-server.
+4. Click the **+** button to add a new note
+5. Edit or delete notes using the icons on each note card
+6. Toggle the theme with the moon/sun button
+7. Your notes are saved automatically in your browser
 
 ---
 
