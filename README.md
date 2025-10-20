@@ -39,7 +39,7 @@ The whole project has a glowing theme and a modern look designed to appeal to th
 ---
 
 ## Demo
-If you host on GitHub Pages, you can add your live demo link here.
+Live on GitHub Pages: https://scythmix.github.io/particle-effects-notes-app/
 
 ---
 
