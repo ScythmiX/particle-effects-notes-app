@@ -40,7 +40,17 @@ function updatePointer(e) {
 class Particle {
 	static particles = [];
 	static COUNT = 100;
-	static COLORS = ["#e0e0e0", "#c0c0c0", "#a0a0a0", "#808080", "#606060", "#404040", "#202020"]
+	static h = 225;
+	static s = 25;
+	static COLORS = [
+		`hsl(${this.h}, ${this.s}%, 12%)`, 
+		`hsl(${this.h}, ${this.s}%, 24%)`, 
+		`hsl(${this.h}, ${this.s}%, 36%)`, 
+		`hsl(${this.h}, ${this.s}%, 48%)`,
+		`hsl(${this.h}, ${this.s}%, 60%)`,
+		`hsl(${this.h}, ${this.s}%, 72%)`,
+		`hsl(${this.h}, ${this.s}%, 84%)`
+	]
 	static THRESHOLD = 250;
 	
 	constructor(rad, col, pos, vel) {
