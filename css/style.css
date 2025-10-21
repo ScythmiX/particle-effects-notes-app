@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-	--brand-color: #101010;
-	--base-color: #e0e0e0;
+	--brand-color: #202020;
+	--base-color: #d0d0d0;
 	--surface-color: white;
-	--text-color: #101010;
+	--text-color: #202020;
 	--secondary-text-color: #606060;
-	--brand-color-shadow: #10101080;
+	--brand-color-shadow: #20202080;
 }
 
 body.dark-theme {
 	--brand-color: white;
 	--base-color: black;
-	--surface-color: #101010;
+	--surface-color: #202020;
 	--text-color: white;
 	--secondary-text-color: #909090;
 	--brand-color-shadow: #ffffff80;
@@ -59,7 +59,7 @@ header::before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--surface-color));
+	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--base-color));
 	filter: blur(0.2rem);
 }
 
@@ -70,7 +70,7 @@ header::after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--surface-color));
+	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--base-color));
 }
 
 .notes-grid {
@@ -168,7 +168,7 @@ dialog {
 	margin: auto;
 	border: none;
 	width: min(90vw, 500px);
-	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--surface-color));
+	background: linear-gradient(to right, var(--base-color), var(--brand-color), var(--base-color));
 	padding: 2px;
 	color: var(--text-color);
 	border-radius: 0.5rem;
@@ -262,6 +262,7 @@ dialog::backdrop {
 .save-btn {
 	background: var(--brand-color);
 	color: var(--surface-color);
+	box-shadow: 0rem 0.2rem 0.5rem var(--brand-color-shadow);
 }
 
 .empty-state {
