@@ -41,7 +41,7 @@ class Particle {
 	static particles = [];
 	static COUNT = 100;
 	static h = 225;
-	static s = 25;
+	static s = 0;
 	static COLORS = [
 		`hsl(${this.h}, ${this.s}%, 12%)`, 
 		`hsl(${this.h}, ${this.s}%, 24%)`, 
