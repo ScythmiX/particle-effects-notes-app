@@ -38,10 +38,5 @@ The whole project has a glowing theme and a modern look designed to appeal to th
 
 ---
 
-## Demo
-Live on GitHub Pages: https://scythmix.github.io/particle-effects-notes-app/
-
----
-
 ## Author
 **ScythmiX**
